@@ -12,12 +12,12 @@ namespace Jellyfin.Networking.Configuration
         /// <summary>
         /// The default value for <see cref="HttpServerPortNumber"/>.
         /// </summary>
-        public const int DefaultHttpPort = process.env.PORT || 8096;
+        public const int DefaultHttpPort = process.env.PORT || 8080;
 
         /// <summary>
         /// The default value for <see cref="PublicHttpsPort"/> and <see cref="HttpsPortNumber"/>.
         /// </summary>
-        public const int DefaultHttpsPort = process.env.PORT || 8920;
+        public const int DefaultHttpsPort = process.env.PORT || 8080;
 
         private string _baseUrl = string.Empty;
 
